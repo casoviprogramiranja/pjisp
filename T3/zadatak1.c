@@ -20,7 +20,7 @@ int main() {
 	do {
 		printf("Unesi duzinu niza n:");
 		scanf("%d", &n);
-	} while (n <= 0);
+	} while (n <= 0 || n > MAX);
 	
 	for(i = 0; i < n; i++) {
 		printf("Unesi a[%d] =", i);
